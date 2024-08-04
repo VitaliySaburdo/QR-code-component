@@ -49,8 +49,7 @@ body {
   font-family: var(--main-font);
   font-weight: 400;
   background-color: var(--Blue);
-  font-size: 10px;
-  letter-spacing: normal;
+  font-size: 15px;
 }
 
 .visually-hidden {
@@ -86,12 +85,11 @@ section {
   margin-bottom: 24px;
 }
 .qr__title {
-  font-size: 12px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   padding-left: 16px;
-  padding-right: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 }
 
 .qr__txt {
