@@ -35,6 +35,7 @@ img {
   /* colors */
   --White: hsl(0, 0%, 100%);
 
+  --Blue: hsl(212, 45%, 89%);
   --Slate-300: hsl(212, 45%, 89%);
   --Slate-500: hsl(216, 15%, 48%);
   --Slate-900: hsl(218, 44%, 22%);
@@ -47,8 +48,8 @@ body {
   color: var(--Slate-900);
   font-family: var(--main-font);
   font-weight: 400;
-  background-color: var(--White);
-  font-size: 15px;
+  background-color: var(--Blue);
+  font-size: 10px;
   letter-spacing: normal;
 }
 
@@ -66,23 +67,36 @@ body {
   overflow: hidden;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-
-  @media screen and (min-width: 375px) {
-    width: 375px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 685px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    width: 1440px;
-  }
+section {
+  margin-top: 152px;
+  margin-bottom: 152px;
 }
 
-.section {
-  margin-top: 50px;
+.qr__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  padding: 16px 16px 40px 16px;
+  background-color: var(--White);
+  border-radius: 20px;
+}
+
+.qr__image {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.qr__title {
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+}
+
+.qr__txt {
+  color: var(--Slate-500);
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
